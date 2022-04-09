@@ -1,0 +1,41 @@
+{
+  "name": "yrhacks-2022",
+  "version": "1.0.0",
+  "description": "A bot to scan files and links to protect users from malicious code.",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "nodemon src/bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YRHax/yrhacks2022.git"
+  },
+  "keywords": [
+    "virustotal",
+    "bot",
+    "discord",
+    "api",
+    "yrhacks"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YRHax/yrhacks2022/issues"
+  },
+  "homepage": "https://github.com/YRHax/yrhacks2022#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "moment": "^2.29.2",
+    "sourcebin": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.8",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.13.0",
+    "ts-node": "^10.7.0",
+    "tslib": "^2.3.1"
+  }
+}
